@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import numpy as np
+import librosa
+from typing import Optional
+
+
+def add_noise(y: np.ndarray, snr_db: float = 20.0) -> np.ndarray:
+    # Add noise to the signal
+
+    return y_noised
+
+
+def add_pitch_shift(y: np.ndarray, n_steps: float, sr: int = 44100) -> np.ndarray:
+    y_shift = ? # Perform pitch shift to the input signal
+    
+    return y_shift
+
+
+def add_impulse_response(y: np.ndarray, impulse_response: np.ndarray, mixing_alpha: float = 0.7) -> np.ndarray:
+    # Simulate a sound being played in a different environment
+
+    return y_impulse
+
+
+def freq_masking(y: np.ndarray, max_bands: Optional[int] = None):
+   # Add horizontal masking on the spectrogram
+   
+   return y_masking
